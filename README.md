@@ -43,4 +43,4 @@ Final score 28/30
 - RollerCoaster: it stresses all the operations
 - Laude: it stresses all the operations
 
-3: test sets were uknown during the development of the code. 
+<sup>3</sup>  test sets were uknown during the development of the code. 
