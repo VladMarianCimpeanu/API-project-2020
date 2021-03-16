@@ -4,7 +4,7 @@ This is the final project of the course "Algoritmi e principi dell'informatica" 
 
 ## Project description
 
-The goal of this project is to develop an efficient editor that take inspiration from 'ED' editor.
+The goal of this project is to develop an efficient editor that takes inspiration from 'ED' editor.
 The editor has to support the following operations:
 - change: type 'X,Yc' to change from line X to line Y
 - read: type 'X,Yp' to read from line X to line Y
@@ -13,6 +13,9 @@ The editor has to support the following operations:
 - redo: type 'Xr' to redo last X undo operations
 
 ---
+
+## Testing
+
 | TestSetName | Passed | Number of Tests | time execution<sup>1</sup> | RAM space<sup>2</sup>|
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | WriteOnly | 5 | 5 | 7,4 s | 3.00 GiB |
@@ -25,9 +28,9 @@ The editor has to support the following operations:
 
 Final score 28/30
 
+1:max time execution to pass a test
+2:max RAM space used during the execution to pass a test
 
-1: max time execution to pass a test
-2: max RAM space used during the execution to pass a test
 ---
 
 ## Little description of tests<sup>3</sup>
