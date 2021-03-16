@@ -2,8 +2,13 @@
 
 This is the final project of the course "Algoritmi e principi dell'informatica" ("Algorithms and principles of computer science") in 2020 at Politecnico di Milano.
 
+## Project description
 
-| TestSetName | Passed | Number of Tests | time execution<sup>1<\sup> | RAM space<sup>2<\sup>|
+The goal of this projext is to develop an efficient editor that take innspiration from 'ED' editor:
+
+
+---
+| TestSetName | Passed | Number of Tests | time execution<sup>1</sup> | RAM space<sup>2</sup>|
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | WriteOnly | 5 | 5 | 7,4 s | 3.00 GiB |
 | BulkReads | 5 | 5 | 1.250 s | 240 MiB |
@@ -20,7 +25,7 @@ Final score 28/30
 2: max RAM space used during the execution to pass a test
 ---
 
-##Little description of tests<sup>3<\sup>
+##Little description of tests<sup>3</sup>
 WriteOnly
 : it stresses writings at the bottom of the text
 BulkReads
