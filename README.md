@@ -6,11 +6,11 @@ This is the final project of the course "Algoritmi e principi dell'informatica" 
 
 The goal of this project is to develop an efficient editor that takes inspiration from 'ED' editor.
 The editor has to support the following operations:
-- change: type 'X,Yc' to change from line X to line Y
-- read: type 'X,Yp' to read from line X to line Y
-- delete: type 'X,Yd' to delete from line X to line Y
-- undo: type 'Xu' to undo last X operations
-- redo: type 'Xr' to redo last X undo operations
+- change: type `X,Yc` to change from line X to line Y
+- read: type `X,Yp` to read from line X to line Y
+- delete: type `X,Yd` to delete from line X to line Y
+- undo: type `Xu` to undo last X operations
+- redo: type `Xr` to redo last X undo operations
 
 ---
 
