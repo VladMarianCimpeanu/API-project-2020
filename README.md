@@ -4,8 +4,13 @@ This is the final project of the course "Algoritmi e principi dell'informatica" 
 
 ## Project description
 
-The goal of this projext is to develop an efficient editor that take innspiration from 'ED' editor:
-
+The goal of this project is to develop an efficient editor that take inspiration from 'ED' editor.
+The editor has to support the following operations:
+- change: type 'cX,Y' to change from line X to line Y
+- read: type 'pX,Y' to read from line X to line Y
+- delete: type 'dX,Y' to delete from line X to line Y
+- undo: type 'uX' to undo last X operations
+- redo: type 'rX' to redo last X undo operations
 
 ---
 | TestSetName | Passed | Number of Tests | time execution<sup>1</sup> | RAM space<sup>2</sup>|
@@ -25,20 +30,13 @@ Final score 28/30
 2: max RAM space used during the execution to pass a test
 ---
 
-##Little description of tests<sup>3</sup>
-WriteOnly
-: it stresses writings at the bottom of the text
-BulkReads
-: it stresses line's readings and changes
-TimeForAChange
-: it stresses delete operations
-RollingBack
-: undo and redo operations only at the end
-AlteringHistory
-: it stresses all the operations
-RollerCoaster
-: it stresses all the operations
-Laude
-: it stresses all the operations
+## Little description of tests<sup>3</sup>
+- WriteOnly: it stresses writings at the bottom of the text
+- BulkReads: it stresses line's readings and changes
+- TimeForAChange: it stresses delete operations
+- RollingBack: undo and redo operations only at the end
+- AlteringHistory: it stresses all the operations
+- RollerCoaster: it stresses all the operations
+- Laude: it stresses all the operations
 
 3: test sets were uknown during the development of the code. 
