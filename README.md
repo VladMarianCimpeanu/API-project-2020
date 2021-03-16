@@ -28,8 +28,9 @@ The editor has to support the following operations:
 
 Final score 28/30
 
-1:max time execution to pass a test
-2:max RAM space used during the execution to pass a test
+<sup>1</sup> max time execution to pass a test
+
+<sup>2</sup> max RAM space used during the execution to pass a test
 
 ---
 
