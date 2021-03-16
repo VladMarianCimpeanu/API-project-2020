@@ -3,7 +3,7 @@
 This is the final project of the course "Algoritmi e principi dell'informatica" ("Algorithms and principles of computer science") in 2020 at Politecnico di Milano.
 
 
-| TestSetName | Passed | Number of Tests | time execution[^1] | RAM space[^2]|
+| TestSetName | Passed | Number of Tests | time execution<sup>1<\sup> | RAM space<sup>2<\sup>|
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | WriteOnly | 5 | 5 | 7,4 s | 3.00 GiB |
 | BulkReads | 5 | 5 | 1.250 s | 240 MiB |
@@ -15,10 +15,12 @@ This is the final project of the course "Algoritmi e principi dell'informatica" 
 
 Final score 28/30
 
-[^1]: max time execution to pass a test
-[^2]: max RAM space used during the execution to pass a test
+
+1: max time execution to pass a test
+2: max RAM space used during the execution to pass a test
 ---
-##Little description of tests[^3]
+
+##Little description of tests<sup>3<\sup>
 WriteOnly
 : it stresses writings at the bottom of the text
 BulkReads
@@ -34,4 +36,4 @@ RollerCoaster
 Laude
 : it stresses all the operations
 
-[^3]: test sets were uknown during the development of the code. 
+3: test sets were uknown during the development of the code. 
