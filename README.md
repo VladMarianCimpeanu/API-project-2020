@@ -35,6 +35,7 @@ Final score 28/30
 ---
 
 ## Little description of tests<sup>3</sup>
+Every test set is composed by 5 different testes a part from Laude which is a unique test.
 - WriteOnly: it stresses writings at the bottom of the text
 - BulkReads: it stresses line's readings and changes
 - TimeForAChange: it stresses delete operations
